@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Portfolio Ibrahima Fadiaba</title>
+  </head>
+  <body>
+    <!-- En-tête -->
+    <header>
+      <!-- Prénom et Nom -->
+      <div class="logo">
+        <span class="prenom">Ibrahima</span>
+        <span class="nom">Fadiaba</span>
+      </div>
+
+      <!-- Liens de navigation -->
+      <nav class="navbar">
+        <span class="hamburger">
+          <i class="fa fa-bars" style="font-size: 24px"></i
+        ></span>
+        <ul class="navbar-list">
+          <li><a class="active" href="#accueil">Accueil</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Contenu de la page -->
+    <main>
+      <!-- Section présentation brief -->
+      <section id="accueil">
+        <!-- Présentation -->
+        <div class="presentation-texte">
+          <!-- Texte de présentation -->
+          <p>
+            Je suis <span class="nom">Ibrahima Fadiaba</span>, Développeur web
+            passionné par le web et les nouvelles technologies.
+          </p>
+
+          <!-- Bouton pour voir les projets -->
+          <button type="button">Voir mes projets</button>
+        </div>
+
+        <!-- Image -->
+        <img
+          src="/images/pixeltrue-web-development.svg"
+          alt="Illustration de Développement web"
+          width="500"
+          height="auto"
+        />
+      </section>
+
+      <!-- Section présentation détaillée -->
+      <section id="apropos">
+        <h2 class="titre">À propos</h2>
+
+        <div class="container">
+          <!-- Présentation détaillée -->
+          <div class="presentation-detaillee">
+            <div class="presentation-detaillee-texte">
+              <p class="detail-texte">
+                Je m'appelle <span>Ibrahima Fadiaba</span>, passioné par la
+                création de sites web modernes et interactifs.
+              </p>
+              <p class="detail-texte">
+                Je suis actuellement étudiant en <span>développement web</span>,
+                et je cherche à améliorer mes compétences en JavaScript, HTML et
+                CSS.
+              </p>
+              <p class="detail-texte">
+                J'adore transformer mes idées en projets concrets et
+                expérimenter avec les nouvelles technologies.
+              </p>
+            </div>
+
+            <button type="button">Télécharger mon CV</button>
+          </div>
+
+          <!-- Image de profil -->
+          <div class="image">
+            <img
+              src="/images/profil.png"
+              alt="Mon image de profil"
+              width="300"
+              height="auto"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Section des projets -->
+      <section id="projets">
+        <h2 class="titre">Mes projets</h2>
+
+        <div class="container">
+          <!-- Card du projet 1 -->
+          <div class="card">
+            <img
+              src="/images/dalalSenegal.png"
+              alt="Projet DalalSenegal"
+              width="auto"
+              height="200px"
+            />
+            <div class="projet-details">
+              <h3>Dalal Sénégal</h3>
+              <p class="description">
+                Une plateforme de réservation de logements et de voitures au
+                Sénégal.
+              </p>
+              <p class="technologies">#React, #Tailwind CSS, #NodeJS</p>
+              <a href="https://terangasn.vercel.app" target="_blank"
+                >Voir le projet</a
+              >
+            </div>
+          </div>
+
+          <!-- Card du projet 2 -->
+          <div class="card">
+            <img
+              src="/images/easyservice.png"
+              alt="Projet EasyService"
+              width="auto"
+              height="200px"
+            />
+            <div class="projet-details">
+              <h3>Easy Service</h3>
+              <p class="description">
+                Une plateforme de gestion de services qui met en relation
+                clients et techniciens.
+              </p>
+              <p class="technologies">#React, #Tailwind CSS, #NodeJS</p>
+              <a href="https://easyservice.vercel.app" target="_blank"
+                >Voir le projet</a
+              >
+            </div>
+          </div>
+
+          <!-- Card du projet 3 -->
+          <div class="card">
+            <img
+              src="/images/network-monitor.png"
+              alt="Projet Network Monitor"
+              width="auto"
+              height="200px"
+            />
+            <div class="projet-details">
+              <h3>Network Monitor</h3>
+              <p class="description">
+                Une plateforme de surveillance réseau pour suivre la performance
+                et la disponibilité des systèmes.
+              </p>
+              <p class="technologies">#HTML, #CSS, #Flask</p>
+              <a
+                href="https://network-monitor-sudu.onrender.com/"
+                target="_blank"
+                >Voir le projet</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section compétences -->
+      <section id="competences">
+        <h2 class="titre">Mes compétences</h2>
+
+        <div class="container">
+          <!-- Soft Skills -->
+          <div class="soft-skills">
+            <!-- Compétence card 1 -->
+            <div class="competence-card">
+              <h3>Soft Skills</h3>
+
+              <div class="skills">
+                <div class="skill">
+                  <span>Gestion de projet</span>
+                  <div class="progress-bar"><span data-width="90%"></span></div>
+                </div>
+                <div class="skill">
+                  <span>Travail en équipe</span>
+                  <div class="progress-bar"><span data-width="85%"></span></div>
+                </div>
+
+                <div class="skill">
+                  <span>Résolution de problèmes</span>
+                  <div class="progress-bar"><span data-width="80%"></span></div>
+                </div>
+                <div class="skill">
+                  <span>Adaptabilité</span>
+                  <div class="progress-bar"><span data-width="75%"></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hard Skills -->
+          <div class="hard-skills">
+            <!-- Compétence card 2 -->
+            <div class="competence-card">
+              <h3>Hard Skills</h3>
+
+              <div class="skills">
+                <div class="skill">
+                  <span>HTML</span>
+                  <div class="progress-bar"><span data-width="90%"></span></div>
+                </div>
+                <div class="skill">
+                  <span>CSS</span>
+                  <div class="progress-bar"><span data-width="85%"></span></div>
+                </div>
+                <div class="skill">
+                  <span>JavaScript</span>
+                  <div class="progress-bar"><span data-width="80%"></span></div>
+                </div>
+                <div class="skill">
+                  <span>Python</span>
+                  <div class="progress-bar"><span data-width="75%"></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section contact -->
+      <section id="contact">
+        <h2>Vous avez un <span>projet en tête ?</span></h2>
+        <h3>N'hésitez pas à me <span>contacter</span></h3>
+
+        <form action="#">
+          <div class="infos">
+            <div>
+              <label for="prenom">Votre prénom</label>
+              <input
+                type="text"
+                id="prenom"
+                name="prenom"
+                placeholder="Votre prénom"
+                required
+              />
+            </div>
+            <div>
+              <label for="nom">Votre nom</label>
+              <input
+                type="text"
+                id="nom"
+                name="nom"
+                placeholder="Votre nom"
+                required
+              />
+            </div>
+          </div>
+          <div class="autres">
+            <div>
+              <label for="sujet">Votre sujet</label>
+              <input
+                type="text"
+                id="sujet"
+                name="sujet"
+                placeholder="Votre sujet"
+                required
+              />
+            </div>
+
+            <div class="message">
+              <label for="message">Votre message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Votre message"
+                required
+              ></textarea>
+            </div>
+          </div>
+
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+
+      <!-- Bouton retour en haut -->
+        <button id="back-to-top" title="Retour en haut">
+            <i class="fa fa-arrow-up" style="font-size: 24px"></i>
+        </button>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+      <p>
+        Designed by <span class="nom">Ibrahima Fadiaba</span> with HTML CSS JS
+      </p>
+
+      <p>Tous droits réservés - 2025</p>
+    </footer>
+  </body>
+</html>
