@@ -20,6 +20,11 @@
   --Inter-400: 400 1rem Inter, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Header */
 header {
   display: flex;
@@ -114,7 +119,7 @@ section {
   font-size: 30px;
 }
 
-#accueil .presentation-texte button {
+#accueil .presentation-texte a {
   padding: 0.75rem 1.5rem;
   background-color: var(--primary);
   color: var(--secondary);
@@ -124,7 +129,7 @@ section {
   font-size: 1rem;
 }
 
-#accueil .presentation-texte button:hover {
+#accueil .presentation-texte a:hover {
   background-color: darkred;
 }
 
@@ -156,7 +161,7 @@ section {
   font-size: 22px;
 }
 
-#apropos .presentation-detaillee button {
+#apropos .presentation-detaillee a {
   padding: 0.75rem 1.5rem;
   background-color: var(--primary);
   color: var(--secondary);
@@ -168,7 +173,7 @@ section {
   font-size: 1rem;
 }
 
-#apropos .presentation-detaillee button:hover {
+#apropos .presentation-detaillee a:hover {
   background-color: darkred;
 }
 
@@ -322,7 +327,7 @@ section {
     font-size: 24px;
   }
 
-  #accueil .presentation-texte button {
+  #accueil .presentation-texte a {
     margin-top: 1rem;
     padding: 0.75rem 1.5rem;
   }
@@ -348,7 +353,7 @@ section {
     margin-top: 0.5rem;
   }
 
-  .presentation-detaillee button {
+  .presentation-detaillee a {
     margin: 1rem auto;
     padding: 0.75rem 1.5rem;
   }
@@ -595,7 +600,7 @@ section {
     text-align: left;
   }
 
-  #apropos .container .presentation-detaillee button {
+  #apropos .container .presentation-detaillee a {
     padding: 0.75rem 1.5rem;
   }
 
@@ -790,6 +795,7 @@ section {
     text-align: center;
     margin: 0 0 2rem 0;
   }
+
   /* Section Accueil */
   #accueil {
     padding: 4rem 3rem;
@@ -808,7 +814,7 @@ section {
     font-size: 30px;
   }
 
-  #accueil .presentation-texte button {
+  #accueil .presentation-texte a {
     padding: 0.75rem 2.5rem;
     font-size: medium;
   }
@@ -856,7 +862,7 @@ section {
     text-align: left;
   }
 
-  #apropos .container .presentation-detaillee button {
+  #apropos .container .presentation-detaillee a {
     padding: 0.75rem 2.5rem;
     margin: 1rem 0 0 0;
     font-size: 1rem;
@@ -1089,13 +1095,13 @@ section,
 button,
 .navbar-list li a,
 .card,
-#accueil .presentation-texte button {
+#accueil .presentation-texte a {
   transition: transform 220ms ease, box-shadow 220ms ease,
     background-color 200ms ease;
 }
 
 button:hover,
-#accueil .presentation-texte button:hover,
+#accueil .presentation-texte a:hover,
 .card:hover {
   transform: translateY(-6px);
 }
